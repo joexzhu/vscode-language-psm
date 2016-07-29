@@ -1,0 +1,41 @@
+{
+    "name": "mtx-PSM-asm",
+    "displayName": "Picoblaze assembly",
+    "description": "Picoblaze support for Visual Studio Code",
+    "version": "0.0.0",
+    "publisher": "mtx",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "keywords": [
+        "kcpsm",
+        "psm",
+        "picoblaze",
+        "pblaze"  
+    ],
+    "license": "SEE LICENSE IN LICENSE.md",
+    "homepage": "http://www.mediatronix.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/codeatcpp/vscode-language-psm.git"
+    },
+    "bugs": {
+        "url": "https://github.com/codeatcpp/vscode-language-psm/issues"
+    },
+    "contributes": {
+        "languages": [{
+            "id": "mtx",
+            "aliases": ["Asm (Zeus Z80)", "mediatronix"],
+            "extensions": [".psm",".psh"],
+            "configuration": "./psm.configuration.json"
+        }],
+        "grammars": [{
+            "language": "psm",
+            "scopeName": "source.psm",
+            "path": "./syntaxes/psm.tmLanguage"
+        }]
+    }
+}
