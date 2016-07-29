@@ -2,7 +2,7 @@
     "name": "mtx-psm",
     "displayName": "Picoblaze assembly",
     "description": "Picoblaze support for Visual Studio Code",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "mtx",
     "engines": {
         "vscode": "^1.0.0"
