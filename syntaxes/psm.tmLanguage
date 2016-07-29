@@ -19,7 +19,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(.ORG|.EQU|.END)\b</string>
+			<string>\b(.ORG|.END|.EQU|.TXT)\b</string>
 			<key>name</key>
 			<string>support.type.psm</string>
 		</dict>
@@ -45,11 +45,11 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.double.include.asm.z80</string>
+			<string>string.quoted.double.include.psm</string>
 		</dict>
 		<dict>
 			<key>match</key>			
-			<string>\b(ADC|ADD|AND|CALL|DAA|DEC|DI|DJNZ|EI|EX|EXX|HALT|IM|IN|INC|IND|INDR|INI|INIR|JP|JR|LD|LDD|LDDR|LDI|LDIR|M|NC|NEG|NOP|NV|NZ|OR|OTDR|OTIR|OUT|OUTD|OUTI|POP|PUSH|RES|RET|RETI|RETN|RL|RLA|RLC|RLCA|RLD|RR|RRA|RRC|RRCA|RRD|RST|SBC|SCF|SET|SLA|SRA|SRL|SUB|XOR)\b</string>
+			<string>\b(ADC|ADD|AND|C|CALL|EXX|HALT|IN|JUMP|LD|MOVE|NC|NEG|NOP|NZ|OR|OUT|RET|RETI|RL|RR|SUBC|SLA|SLL|SRA|SRL|SUB|XOR)\b</string>
 			<key>name</key>
 			<string>keyword.mnemonic.psm</string>
 		</dict>
