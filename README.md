@@ -11,4 +11,4 @@ Press `F1` in VSCode, type `ext install` and then look for `mtx-psm`.
 
 Full syntax highlight for Picoblaze Assembly.
 
-![Code colorization sample](./vscode.png)
+![Code colorization sample](./vscode-psm.png)
