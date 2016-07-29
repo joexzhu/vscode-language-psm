@@ -19,7 +19,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(.BUF|.BYT|.END|.EQU|.TXT)\b</string>
+			<string>\b(\.BUF|\.BYT|\.END|\.EQU|\.TXT)\b</string>
 			<key>name</key>
 			<string>support.type.psm</string>
 		</dict>
