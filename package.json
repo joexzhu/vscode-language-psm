@@ -20,10 +20,10 @@
     "homepage": "http://www.mediatronix.com",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Hevak/vscode-language-psm.git"
+        "url": "ssh://github.com/Hevak/vscode-language-psm.git"
     },
     "bugs": {
-        "url": "https://github.com/Hevak/vscode-language-psm/issues"
+        "url": "ssh://github.com/Hevak/vscode-language-psm/issues"
     },
     "contributes": {
         "languages": [{
